@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0f172a;
+}
+
+button:focus {
+  outline-width: 0px;
+  border-width: 4px;
+  border: red;
+}
+input:focus {
+  outline-width: 0px;
+  border-width: 4px;
+  border: red;
+}
